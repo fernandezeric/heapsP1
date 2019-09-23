@@ -11,6 +11,7 @@ class BinaryHeap
 {
 private:
 	std::vector<int> v;
+	int parent(int k);
 
 public:
 	BinaryHeap();
