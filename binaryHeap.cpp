@@ -9,6 +9,10 @@ BinaryHeap::BinaryHeap(){
 	v.append(NULL);
 }
 
-BinaryHeap::insert(int k){
+void BinaryHeap::insert(int k){
 	v.append(k);
+}
+
+bool BinaryHeap::search(int k){
+	//do something
 }

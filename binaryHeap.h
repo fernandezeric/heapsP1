@@ -1,5 +1,5 @@
 /* C++11 binaryHeap.h
- * Declacracion de la clase binaryHeap
+ * Declaracion de la clase binaryHeap
  * Las funciones están definidas en binaryHeap.cpp
  */
 #ifndef BINARYHEAP_H
@@ -16,7 +16,7 @@ public:
 	BinaryHeap();
 	~BinaryHeap();
 	void insert(int k);
-	void search(int k);
+	bool search(int k);
 	void join(); //check this params
 };
 
