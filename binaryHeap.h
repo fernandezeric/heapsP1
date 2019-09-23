@@ -17,7 +17,7 @@ public:
 	~BinaryHeap();
 	void insert(int k);
 	bool search(int k);
-	void join(); //check this params
+	void join(BinaryHeap bh); //check this params
 };
 
 #endif
